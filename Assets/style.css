@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,700;1,200;1,400&family=Pompiere&display=swap');
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+
+    }  
+ html{
+        font-family: 'Montserrat', sans-serif;
+        line-height: 2.0;
+      }
+
+      body{
+          background-color: lavenderblush;
+      }
+
+.title {
+    font-size: large;
+    color: black;
+    font-family:'Montserrat', sans-serif; 
+    top: 50%;
+    bottom: 50%;
+    font-weight: bolder;
+    flex-grow: 4;
+}
+.start-btn{
+    font-size: 20px;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    background-color: rgb(215, 164, 35);
+    font-weight: bold;
+}
+
+.question-box {
+    width: 100%;
+    padding: 20px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.question-box header {
+    padding: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+.first-question{
+    font-size: large;
+    font-weight: 300;
+    margin-top: 27%;
+}
+
+.form-check-label {
+font-size: large;
+padding: 2%;
+margin: 3px;
+}
+
+.hide{
+    display: none;
+}
+
+.form-check-label button{
+    font-size: 15px;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    background-color: rgb(85, 172, 159);
+    font-weight: bold;
+}

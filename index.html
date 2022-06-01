@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Test Your Knowledge</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="./Assets/style.css" />
+</head>
+
+<body>
+  <header>
+    <div class="title">Select START to begin your Quiz! </div>
+    <button class="start-btn">Start Quiz</button>
+  </header>
+
+  <main>
+    <div class="question-box hide">
+        <div class="timer">
+          <div class="timer-text">Time is Ticking:</div>
+          <div class="timer-sec">30 </div>
+        </div>
+    </div>
+
+    <section>
+      <div class="first-question hide">
+
+        <span>JavaScript is a:</span>
+        <div class="questionare">
+          <ul>
+          
+            <li class="form-check-label"><button class="answer" data-answer="correct"> Programming Language</button></li>
+        </div>
+        <div class="questionare">
+          
+          <li class="form-check-label"> <button class="answer" data-answer="incorrect">Markup Language </button> </li>
+        </div>
+        <div class="questionare">
+          
+          <li class="form-check-label"> <button  class="answer" data-answer="incorrect"> Style Sheet Language</button> </li>
+        </div>
+        </ul>
+      </div>
+
+     
+      <div class="second-question hide">
+
+        <span>What is a VAR?</span>
+        <div class="questionare">
+          <ul>
+           
+            <li class="form-check-label"> <button class="answer" data-answer="incorrect">Is a Pseudo Class</button> </li>
+        </div>
+        <div class="questionare">
+          
+          <li class="form-check-label"> <button class="answer" data-answer="correct"> Used to declare a variable.</button> </li>
+        </div>
+        <div class="questionare">
+          
+          <li class="form-check-label"> <button class="answer" data-answer="incorrect">Application programming Interface is a set of methods, properties, events and
+            URLs that developers use to interact with components of a user's web browser.</button></li>
+        </div>
+      
+        </ul>
+      </div>
+
+
+      <div class="third-question hide">
+
+        <span>What is a DOM? </span>
+        <div class="questionare">
+          <ul>
+
+           
+            <li class="form-check-label"> <button class="answer" data-answer="incorrect">Programming Language</button> </li>
+        </div>
+        <div class="questionare">
+       
+          <li class="form-check-label"> <button class="answer" data-answer="incorrect"> Programming Interfaces</button></li>
+        </div>
+        <div class="questionare">
+         
+          <li class="form-check-label"> <button class="answer" data-answer="correct">Object Model</button> </li>
+        </div>
+      
+        </ul>
+      </div>
+
+      <div class="fourth-question hide">
+
+        <span>What is an Array? </span>
+        <div class="questionare">
+          <ul>
+
+           
+            <li class="form-check-label"> <button class="answer" data-answer="incorrect">Console Log</button></li>
+        </div>
+        <div class="questionare">
+       
+          <li class="form-check-label"> <button class="answer" data-answer="incorrect"> An event listener</button></li>
+        </div>
+        <div class="questionare">
+         
+          <li class="form-check-label"> <button class="answer" data-answer="correct">a list of items</button> </li>
+        </div>
+      
+        </ul>
+      </div>
+    </section> 
+
+
+    <section> 
+      <p id="message"></p>
+    </section>
+    <!-- Score/PLAY AGAIN -->
+    <section class="initials hide">
+
+
+      <h2>View Score: <span class="wins"># </span> </h2>
+      <h2> Enter Initials:</h2> <input id="fill"> <button id="save">Save</button>
+
+  
+
+
+    </section>
+
+    <section  class="dashboard hide"> 
+           <ol id="order-list">
+
+           </ol>
+      <button class="reset-button">Play Again!</button>
+    </section>
+  </main>
+  <script src="./Assets/script.js"></script>
+</body>
+
+</html>
